@@ -44,46 +44,25 @@ Note: Detection metrics are evaluated on a validation dataset. FPS depends on ha
 
 ---
 
-## Repository Structure
-warehouse-safety-monitor/
-│
-├── README.md
-├── requirements.txt
-├── inference.py
-│
-├── weights/
-│ └── best.pt
-│
-├── sample_inputs/
-│ └── sample_video.mp4
-│
-├── outputs/
-│ └── output_annotated.mp4
-│
-└── logs/
-└── alert_log.csv
-
-
----
-
 ## Installation
 
-Clone the repository: git clone https://github.com/saiayush/warehouse-safety-monitor.git
+**Clone the repository:** git clone https://github.com/saiayush/warehouse-safety-monitor.git
+
 cd warehouse-safety-monitor
 
-Install dependencies: pip install -r requirements.txt
+**Install dependencies:** pip install -r requirements.txt
 
 Ensure the path in `inference.py`, 'weights/best.pt' is to the model
 
-Run Inference: python inference.py
+**Run Inference:** python inference.py
 
-Provide video path: sample_inputs/test_video.mp4
+**Provide video path:** sample_inputs/test_video.mp4
 
-Outputs: annotated video at outputs folder and logs
+**Outputs:** annotated video at outputs folder and logs
 
 ---
 
-##Future Work
+**##Future Work**
 Improve YOLO performance for small PPE objects
 
 Reduce false positives in cluttered scenes
