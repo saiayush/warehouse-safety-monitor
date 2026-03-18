@@ -38,7 +38,7 @@ Precision:    0.8279
 Recall:       0.7510  
 
 ### Inference Speed
-~10 FPS on local webcam/video inference
+~20 FPS on local webcam/video inference
 
 Note: Detection metrics are evaluated on a validation dataset. FPS depends on hardware.
 
