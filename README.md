@@ -42,6 +42,7 @@ Recall:       0.7510
 
 Note: Detection metrics are evaluated on a validation dataset. FPS depends on hardware.
 
+check out the annotated video at outputs/output_annotated.mp4
 ---
 
 ## Installation
@@ -62,7 +63,7 @@ Ensure the path in `inference.py`, 'weights/best.pt' is to the model
 
 ---
 
-**##Future Work**
+**## Future Work**
 Improve YOLO performance for small PPE objects
 
 Reduce false positives in cluttered scenes
