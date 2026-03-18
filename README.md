@@ -64,6 +64,7 @@ Ensure the path in `inference.py`, 'weights/best.pt' is to the model
 ---
 
 **## Future Work**
+
 Improve YOLO performance for small PPE objects
 
 Reduce false positives in cluttered scenes
